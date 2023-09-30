@@ -1,0 +1,77 @@
+/* Reset some default styles */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+
+  #container {
+
+    /* display: flex; */
+    /* position: fixed;
+    bottom: 0;
+    left: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; */
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400px;
+    /* max-height: 400px; */
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #message {
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .avatar {
+    flex: 0 0 50px;
+    margin-right: 10px;
+  }
+  
+  .avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+   */
+  /* #content { */
+    /* flex: 1; */
+  /* } */
+  
+  p #sender {
+    /* position: absolute; */
+    /* DISPLAYS WHEN JS FILE FOR-LOOP IS DOWN/ NOT USING #sender */
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  p #text {
+    font-size: 14px;
+    color: #555;
+  }

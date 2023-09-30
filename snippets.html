@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    ⛏️
+    🏹
+    🛡️
+    ⚔️🔥
+    🗡️
+    ⚒️
+    🟥🟩
+    🆗
+    ✔️❌⁉️
+
+
+
+
+<script>
+    textArray = [
+    "I can't put my finger on it",
+    "Idle hands are the devil's tools",
+    "The road to hell is paved with good intentions",
+    "I came, I saw, I conquered",
+    "Don't throw out the baby with the bath water",
+    "That's too rich for my blood",
+    "You're twisting my rubber arm",
+    "Take a picture, it'll last longer",
+    "Winner, winner, chicken dinner",
+    "Don't break your arm patting your back",
+    "Stop reading yesterdays newsclippings",
+    "He kicked the bucket", 
+    "Try my hand at it",
+    "If it's yellow; let it mellow, if it's brown; flush it down"
+];
+// for (let i = 0; i < messageStringList.length; i++) {
+//     if ( i % 3 ) {
+//         messageStringList[i] + true;
+//         // console.log(messageStringList);
+//     } else {
+//         messageStringList[i] + false;
+//         // console.log(messageStringList);
+//     }
+// }
+// console.log(messageStringList);
+
+
+// GPT
+function changeTextColor() {
+    const randomIndex = Math.floor(Math.random() * textArray.length);
+
+    const textElement = document.getElementById("sender");
+    textElement.style.color = Math.random() < 0.5 ? "green" : "red";
+
+    textElement.textContent = textArray[randomIndex];
+}
+
+changeTextColor();
+
+
+
+
+
+
+// diss Bad
+// function messageWindow(string) {
+//     setInterval(function () {
+//         document.getElementById("messagewindow").innerHTML = string;
+//         string.innerHTML += messageStringList[2];
+//         document.write(string);
+//     }, 1000 );
+// }
+
+// print this message line by line to html table class or id.
+
+// 
+</script>
+
+
+<!-- Color Changing TEXT  -->
+<div>
+    <script type="text/javascript">
+        //This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
+        var Str="Welcome Viewers"
+        document.write(Str.fontcolor("maroon") +
+        " is maroon in this line")
+        document.write("<p>" + Str.fontcolor("salmon") +
+        " is salmon in this line"+"</p>")
+        document.write("<p>" + Str.fontcolor("red") +
+        " is red in this line"+"</p>")
+        //]]>
+    </script>
+</div>
+
+<!-- 
+    NOTES FOR FULL PROJECT: /REMEMBER THIS
+    getElementById
+    Math.  .round
+    passing functions thru element attributes.  as in onclick=""
+    setInterval()
+
+    name functions camel-case, attribs all lower, 
+
+    .localStorage  ,  
+   -cookies saving...
+    .localStorage.setItem  , .getItem  
+
+    JSON.stringify  , .parse
+    window.onload
+
+    document.addEventListener("", function(exampleArgument))   
+-->
+
+<!-- TODO:
+-CLICK ea cell on off with display or another css trick
+-do the control panel -lots of (displayOnly /read) information
+-change the hut to an anivil or workbench. YOU CLICK THE WORKBENCH TO GET WORK DONE. LITTLE ANIMATION
+
+-how much each building yeilds in pricePerSecond! easy but ! FIX
+-->
+
+
+
+
+
+    <!-- 9 X 9 TABLE -->
+    <!-- <table class="image-table">
+        <tr>
+            <td><img src="assets/01_wood.png" alt="Image 1"></td>
+            <td><img src="assets/02_green-orb.png" alt="Image 2"></td>
+            <td><img src="assets/03_iron.png" alt="Image 3"></td>
+        </tr>
+        <tr>
+            <td><img src="assets/04_gold.png" alt="Image 4"></td>
+            <td><img src="assets/82.gif" alt="Image 5"></td>
+            <td><img src="assets/06_iron-ore.png" alt="Image 6"></td>
+        </tr>
+        <tr>
+            <td><img src="assets/07_bathsalts.png" alt="Image 7"></td>
+            <td><img src="assets/08_crown.png" alt="Image 8"></td>
+            <td><img src="assets/01_galaxy.png" alt="Image 9"></td>
+        </tr>
+    </table> -->
+
+
+    <!-- AI IMAGES -->
+    <!-- <div class="container">
+        <div class="box">
+          <img src="ai1.jpg" alt="Image 1">
+          <p class="title">Title 1</p>
+          <p class="description">Description 1</p>
+          <p class="number">123</p>
+        </div>
+        
+        <div class="box">
+          <img src="ai2.jpg" alt="Image 2">
+          <p class="title">Title 2</p>
+          <p class="description">Description 2</p>
+          <p class="number">456</p>
+        </div>
+        
+        <div class="box">
+          <img src="ai3.jpg" alt="Image 3">
+          <p class="title">Title 3</p>
+          <p class="description">Description 3</p>
+          <p class="number">789</p>
+        </div>
+        
+        <div class="box">
+          <img src="ai4.jpg" alt="Image 4">
+          <p class="title">Title 4</p>
+          <p class="description">Description 4</p>
+          <p class="number">987</p>
+        </div>
+      </div> -->
+
+
+
+
+
+
+</body>
+</html>

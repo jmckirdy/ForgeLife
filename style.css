@@ -1,0 +1,297 @@
+body {
+    background-image: url("Assets/b01_background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin: 0; */
+}
+
+.sectionLeft {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.sectionRight {
+    float: right;
+    width: 30%;
+    /* clear: both; */
+}
+  
+.floatRight {
+    float: right;
+    width: 20%;
+    background-color: #999;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid black;
+    /* clear: both; */
+}
+
+.scoreContainer {
+    background-color: #999;
+
+    float: left;
+    width: 25%;
+
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.gameTitle {
+    font-family: papyrus;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 10px;
+
+    color: sienna;
+    /* color: green; */
+
+    font-weight: black;
+
+    float: left;
+    clear: both;
+}
+
+
+
+
+/* GPT vs. */
+/* .sectionLeft {
+    float: left;
+    width: 30%;
+  }
+  .sectionRight {
+    float: right;
+    width: 30%;
+  }
+  .floatRight {
+    float: right;
+    width: 30%;
+  } 
+  .gameTitle {
+    font-family: papyrus;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 10px;
+    color: sienna;
+    font-weight: black;
+  } */
+
+
+.clickerContainer img {
+    position: relative;
+    transition: all .2s ease-in-out;
+
+    position: absolute;
+    bottom: 190px;
+    left: 190px;
+}
+
+/* .bottomLeftClicker {
+    position: absolute;
+    bottom: 110px;
+    right: 190px;
+} */
+
+.clickerContainer img {
+    /* position: inherit; */
+    transition: all .2s ease-in-out;
+}
+
+.clickerContainer img:hover { transform: scale(1.10); }
+.clickerContainer img:active { transform: scale(0.99); }
+
+/* new GPT */
+.scrollable-section {
+    max-height: 750px; /* Set the maximum height of the scrollable section */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: #f0f0f0; /* Set the background color */
+}
+
+/* .yield {
+    text-align: center;
+} */
+
+.shopButton {
+    background-color: #b5b5b5;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.shopButton:hover {
+    background-color: #c7c7c7;
+    transition: .2x ease-in-out;
+}
+
+.shopButton #image {
+    /* width: 155px;
+    height: 155px; */
+    width: 25%;
+}
+
+.shopButton img {
+    width: 115px;
+    height: 115px;
+}
+
+.shopButton #nameAndCost p {
+    margin: 0px;
+    width: 60%;
+}
+
+.shopButton #nameAndCost p:first-of-type {
+    font-size: 24px;
+}
+
+.shopButton #amount {
+    font-size: 48px;
+    color: #595959;
+    font-family: roboto;
+    width: 15%;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.shopButton #yeild {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+    /* font-size: 16px; */
+    /* color: #595959; */
+    /* font-family: roboto; */
+}
+
+
+
+
+/* NEW --GPT */
+.image-table {
+    width: 550px;
+    height: 300px;
+    margin-left: 200px;
+    border-collapse: collapse;
+}
+
+.image-table td {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.image-table img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sectionBottom {
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #336699;
+    /* border-radius: 12px; */
+    padding-left: 20px;
+    padding-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    padding-right: 30px;
+    /* margin: 20px 0px; */
+
+    width: 30%;
+    height: 130px;
+    background-color: #f0f0f0;
+    text-align: right;
+
+    clear: both;
+
+}
+
+.sectionBottom #a, #b, #c, #d, #e, #f, #g, #h {
+    /* font-style: italic bold; */
+    /* font-family: monospace; */
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    color: green; 
+    float: left;
+    clear: left; 
+    margin: 0px 12px;
+}
+
+.sectionBottom .sbContainer{
+    position: relative;
+    width: 240px;
+    height: 170px;
+
+    padding: 15px 15px;
+    background-color: #b5b5b5;
+    border: 1px solid #336699;
+    margin: 0px 3px;
+    float: left;
+}
+
+/* .sectionBottom .customButton {
+    padding: 10px 20px;
+    background-color: #336699;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.sectionFooter {
+    margin-top: 3%;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* NEWNOW */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .box img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 16px;
+  }
+  
+  .number {
+    font-size: 24px;
+    font-weight: bold;
+  }

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Link to your external CSS files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleMessage.css">
+    <title>ForgeLife</title>
+
+</head>
+
+<body>
+
+    <div class="sectionLeft">
+
+        <div class="gameTitle">
+            <h1>ForgeLife<br>~~~~~~~</h1>
+
+        </div>
+    
+        
+        <div class="floatRight">
+            <a href="#">Profile</a><br>
+            <a href="#">Achievements</a>
+        </div>
+
+        <div class="scoreContainer">
+            $<span id="score">0</span><br>
+            $<span id="scorepersecond">0</span> per second
+        </div>
+
+
+        <div class="clickerContainer unselectable">
+            <img onclick="addToScore(500)" src="Assets/hut.png" alt="sturdy hut" height="256px" width="256px">
+        </div>
+
+
+    </div>
+
+
+
+<div class="sectionRight" id="shopContainer">
+    <div class="scrollable-section">
+        <table class="shopButton unselectable" onclick="buyWater()">
+            <tr>
+                <td id="image"><img src="assets/01_water.png"></td>
+                <td id="nameAndCost">
+                    <p>Water</p>
+
+                    Cost:<p><span id="watercost">15</span> Hut</p>
+                </td>
+                <td id="amount"><span id="water">0</span></td>
+            </tr>
+            <tr>
+                <td id="yeild">Yeild: $1/second</td>
+            </tr>
+        </table>
+
+        <table class="shopButton unselectable" onclick="buyWood()">
+            <tr>
+                <td id="image"><img src="assets/02_wood.png"></td>
+                <td id="nameAndCost">
+                    <p>Wood</p>
+
+                    Cost:<p><span id="woodcost">15</span> Hut</p>
+                </td>
+                <td id="amount"><span id="wood">0</span></td>
+            </tr>
+            <tr>
+                <td id="yeild">Yeild: $5/second</td>
+            </tr>
+        </table>
+
+        <table class="shopButton unselectable" onclick="buyFirepit()">
+            <tr>
+                <td id="image"><img src="assets/03_firepit.png"></td>
+                <td id="nameAndCost">
+                    <p>Firepit</p>
+
+                    Cost:<p><span id="firepitcost">50</span> Hut</p>
+                </td>
+                <td id="amount"><span id="firepit">0</span></td>
+            </tr>
+            <tr>
+                <td id="yeild">Yeild: $50/second</td>
+            </tr>
+        </table>
+
+        <table class="shopButton unselectable" onclick="buyFish()">
+            <tr>
+                <td id="image"><img src="assets/04_fish.png"></td>
+                <td id="nameAndCost">
+                    <p>Fish</p>
+
+                    Cost:<p><span id="fishcost">500</span> Hut</p>
+                </td>
+                <td id="amount"><span id="fish">0</span></td>
+            </tr>
+            <tr>
+                <td id="yeild">Yeild: $250/second</td>
+            </tr>
+        </table>
+
+        <table class="shopButton unselectable" onclick="buyClay()">
+            <tr>
+                <td id="image"><img src="assets/05_clay_making.png"></td>
+                <td id="nameAndCost">
+                    <p>Clay</p>
+
+                    Cost:<p><span id="claycost">5000</span> Hut</p>
+                </td>
+                <td id="amount"><span id="clay">0</span></td>
+            </tr>
+            <tr>
+                <td id="yeild">Yeild: $500/second</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+    <div id="container">
+        <h2>Message Console</h2>
+        
+        <div id="message">
+
+            <div id="content">
+                <p id="sender">John Wilfred Doe</p>
+                <p id="text">Bite my shiny metal ass.</p>
+                <div id="cchange"></div>
+            </div>
+        </div>
+        <!-- <p id="sender">John Wilfred Doe</p> -->
+
+
+    </div>
+
+
+
+
+
+
+        <div class="sectionBottom">
+
+
+
+            <div class="sbContainer">
+                <span id="a">0</span> Water <br>
+                <span id="b">56037</span> Wood <br>
+                <span id="c">956743</span> Firepit <br>
+                <span id="d">453703</span> Fish <br>
+
+                <!-- <button class="customButton">Custom Button</button> -->
+            </div>
+
+            <div class="sbContainer">
+                <span id="e">100</span> Clay Making <br>
+                <span id="f">0</span> Chicken Coop <br>
+                <span id="g">6037</span> Lumber Mill <br>
+                <span id="h">6743</span> The Shop <br>
+            </div>
+
+        </div>
+
+    <script src="scriptOne.js"></script>
+    <script src="scriptMessageApp.js"></script>
+</body>
+
+</html>
+
